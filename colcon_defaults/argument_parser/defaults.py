@@ -5,7 +5,6 @@ import collections.abc
 import os
 from pathlib import Path
 
-from colcon_core.argument_default import wrap_default_value
 from colcon_core.argument_parser import ArgumentParserDecoratorExtensionPoint
 from colcon_core.argument_parser import SuppressUsageOutput
 from colcon_core.argument_parser.action_collector \
