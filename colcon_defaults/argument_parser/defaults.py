@@ -208,7 +208,7 @@ class DefaultArgumentsDecorator(
                             type_, value, key, parser_name)
                     except TypeError:
                         continue
-                defaults[dest] = wrap_default_value(value)
+                defaults[dest] = value
         unknown_keys = data.keys() - destinations.keys()
         if unknown_keys:
             unknown_keys_str = ', '.join(sorted(unknown_keys))
